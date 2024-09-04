@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="texture.png" width="648" height="103">
+  <SubTexture name="mad 0000" x="0" y="0"  width="108" height="103" frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="normal 0000" x="108" y="0"  width="108" height="103" frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="veryMad 0000" x="216" y="0"  width="108" height="103" frameX="-7" frameY="-15" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="mad 0001" x="324" y="0"  width="108" height="99" frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="normal 0001" x="432" y="0"  width="108" height="99" frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+  <SubTexture name="veryMad 0001" x="540" y="0"  width="108" height="99" frameX="-7" frameY="-19" frameWidth="118" frameHeight="118"/>
+</TextureAtlas>
