@@ -17,6 +17,7 @@ import flash.media.Sound;
 
 import haxe.Json;
 
+import backend.Song;
 
 #if MODS_ALLOWED
 import backend.Mods;
@@ -86,7 +87,7 @@ class Paths
 		}
 		// flags everything to be cleared out next unused memory clear
 		localTrackedAssets = [];
-		#if !html5 openfl.Assets.cache.clear("songs"); #end
+		#if !html5 openfl.Assets.cache.clear("data/SongData/" + PlayState.SONG + "Music"); #end
 	}
 
 	static public var currentLevel:String;
@@ -203,14 +204,14 @@ class Paths
 		var songKey:String = '${formatToSongPath(song)}/Voices';
 		if(postfix != null) songKey += '-' + postfix;
 		//trace('songKey test: $songKey');
-		var voices = returnSound(null, songKey, 'songs');
+		var voices = returnSound(null, songKey, "data/SongData/" + PlayState.SONG + "Music");
 		return voices;
 	}
 
 	inline static public function inst(song:String):Any
 	{
 		var songKey:String = '${formatToSongPath(song)}/Inst';
-		var inst = returnSound(null, songKey, 'songs');
+		var inst = returnSound(null, songKey, "data/SongData/" + PlayState.SONG + "Music");
 		return inst;
 	}
 
@@ -456,7 +457,7 @@ class Paths
 		if(!currentTrackedSounds.exists(gottenPath))
 		{
 			var retKey:String = (path != null) ? '$path/$key' : key;
-			retKey = ((path == 'songs') ? 'songs:' : '') + getPath('$retKey.$SOUND_EXT', SOUND, library);
+			retKey = ((path == "data/SongData/" + PlayState.SONG + "Music") ? "data/SongData/" + PlayState.SONG + "Music" : '') + getPath('$retKey.$SOUND_EXT', SOUND, library);
 			if(OpenFlAssets.exists(retKey, SOUND))
 			{
 				currentTrackedSounds.set(gottenPath, OpenFlAssets.getSound(retKey));
