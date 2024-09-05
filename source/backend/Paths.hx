@@ -87,7 +87,7 @@ class Paths
 		}
 		// flags everything to be cleared out next unused memory clear
 		localTrackedAssets = [];
-		#if !html5 openfl.Assets.cache.clear("data/SongData/" + PlayState.SONG + "Music"); #end
+		#if !html5 openfl.Assets.cache.clear("data/SongData/" + "Music"); #end //dunno what to even do with here
 	}
 
 	static public var currentLevel:String;
@@ -155,7 +155,7 @@ class Paths
 
 	inline static public function json(key:String, ?library:String)
 	{
-		return getPath('data/$key.json', TEXT, library);
+		return getPath('data/SongData/$key/Chart/$key.json', TEXT, library);
 	}
 
 	inline static public function shaderFragment(key:String, ?library:String)
@@ -204,14 +204,14 @@ class Paths
 		var songKey:String = '${formatToSongPath(song)}/Voices';
 		if(postfix != null) songKey += '-' + postfix;
 		//trace('songKey test: $songKey');
-		var voices = returnSound(null, songKey, "data/SongData/" + PlayState.SONG + "Music");
+		var voices = returnSound(null, "data/SongData/" + songKey + "Music");
 		return voices;
 	}
 
 	inline static public function inst(song:String):Any
 	{
 		var songKey:String = '${formatToSongPath(song)}/Inst';
-		var inst = returnSound(null, songKey, "data/SongData/" + PlayState.SONG + "Music");
+		var inst = returnSound(null, "data/SongData/" + songKey + "Music");
 		return inst;
 	}
 
@@ -457,7 +457,7 @@ class Paths
 		if(!currentTrackedSounds.exists(gottenPath))
 		{
 			var retKey:String = (path != null) ? '$path/$key' : key;
-			retKey = ((path == "data/SongData/" + PlayState.SONG + "Music") ? "data/SongData/" + PlayState.SONG + "Music" : '') + getPath('$retKey.$SOUND_EXT', SOUND, library);
+			retKey = ((path == 'songs') ? 'songs:' : '') + getPath('$retKey.$SOUND_EXT', SOUND, library);
 			if(OpenFlAssets.exists(retKey, SOUND))
 			{
 				currentTrackedSounds.set(gottenPath, OpenFlAssets.getSound(retKey));
