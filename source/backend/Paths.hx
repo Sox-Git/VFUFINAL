@@ -199,21 +199,20 @@ class Paths
 		return file;
 	}
 
-	inline static public function voices(song:String, postfix:String = null):Any
-	{
-		var songKey:String = '${formatToSongPath(song)}/Music/Voices';
-		if(postfix != null) songKey += '-' + postfix;
-		//trace('songKey test: $songKey');
-		var voices = returnSound(null, songKey, 'data/SongData');
-		return voices;
-	}
-
-	inline static public function inst(song:String):Any
-	{
-		var songKey:String = '${formatToSongPath(song)}/Music/Inst';
-		var inst = returnSound(null, songKey, 'data/SongData');
-		return inst;
-	}
+    inline static public function voices(song:String, postfix:String = null):Any
+		{
+			var songKey:String = formatToSongPath(song);
+			if(postfix != null) songKey += '-' + postfix;
+			var voices = returnSound(null, "data/SongData/" + songKey + "/Music/Voices");
+			return voices;
+		}
+	
+		inline static public function inst(song:String):Any
+		{
+			var songKey:String = formatToSongPath(song);
+			var inst = returnSound(null, "data/SongData/" + songKey + "/Music/Inst");
+			return inst;
+		}
 
 	public static var currentTrackedAssets:Map<String, FlxGraphic> = [];
 	static public function image(key:String, ?library:String = null, ?allowGPU:Bool = true):FlxGraphic
