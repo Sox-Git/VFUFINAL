@@ -3,7 +3,7 @@
 	"hideFreeplay": false,
 	"difficulties": "Easy,Normal,Hard",
 	"weekBackground": "",
-	"weekBefore": "tutorial",
+	"weekBefore": "null",
 	"freeplayColor": [
 		146,
 		113,
