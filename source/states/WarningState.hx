@@ -11,7 +11,7 @@ class WarningState extends MusicBeatState
       FlxG.mouse.visible = false;
       var warnthisshit:FlxSprite;
       warnthisshit = new FlxSprite();
-      warnthisshit.loadGraphic(Paths.image("warning"));
+      warnthisshit.loadGraphic(Paths.image("Menu_Assets/Warning/warn"));
       warnthisshit.alpha = 0;
       add(warnthisshit);
 {
