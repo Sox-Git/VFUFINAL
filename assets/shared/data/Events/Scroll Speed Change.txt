@@ -1,0 +1,2 @@
+Value 1: New Scroll Speed
+Value 2: After how many steps should it change/Tween type

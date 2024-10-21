@@ -1,0 +1,2 @@
+Value 1: New characters name
+Value 2: Who is changing? (BF, GF, Dad)

@@ -1,0 +1,2 @@
+Value 1: Animation to play
+Value 2: Who plays the animation? (BF, GF, Dad)
