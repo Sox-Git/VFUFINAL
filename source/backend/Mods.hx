@@ -151,6 +151,7 @@ class Mods
 
 		#if MODS_ALLOWED
 		try {
+/*
 			for (mod in CoolUtil.coolTextFile('modsList.txt'))
 			{
 				//trace('Mod: $mod');
@@ -163,6 +164,7 @@ class Mods
 				else
 					list.disabled.push(dat[0]);
 			}
+*/
 		} catch(e) {
 			trace(e);
 		}
@@ -177,6 +179,7 @@ class Mods
 		var list:Array<Array<Dynamic>> = [];
 		var added:Array<String> = [];
 		try {
+/*		
 			for (mod in CoolUtil.coolTextFile('modsList.txt'))
 			{
 				var dat:Array<String> = mod.split("|");
@@ -187,6 +190,7 @@ class Mods
 					list.push([folder, (dat[1] == "1")]);
 				}
 			}
+*/
 		} catch(e) {
 			trace(e);
 		}
@@ -211,7 +215,7 @@ class Mods
 			fileStr += values[0] + '|' + (values[1] ? '1' : '0');
 		}
 
-		File.saveContent('modsList.txt', fileStr);
+	//	File.saveContent('modsList.txt', fileStr);
 		updatedOnState = true;
 		//trace('Saved modsList.txt');
 		#end
