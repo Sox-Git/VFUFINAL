@@ -13,7 +13,7 @@
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"test",
+			"The Fazbear",
 			"freddy",
 			[
 				106,
@@ -22,7 +22,7 @@
 			]
 		],
 		[
-			"Star-of-the-show",
+			"Star Of The Show",
 			"freddy",
 			[
 				106,
@@ -31,7 +31,7 @@
 			]
 		],
 		[
-			"Inside-the-shell",
+			"Inside The Shell",
 			"freddy",
 			[
 				106,
@@ -40,7 +40,7 @@
 			]
 		],
 		[
-			"Broken-inside",
+			"Broken Inside",
 			"gfed",
 			[
 				255,
@@ -49,7 +49,7 @@
 			]
 		],
 		[
-			"First-to-go",
+			"First To Go",
 			"bonnie",
 			[
 				146,
@@ -67,7 +67,7 @@
 			]
 		],
 		[
-			"Shut-the-door",
+			"Shut The Door",
 			"bonnie",
 			[
 				146,
@@ -76,7 +76,7 @@
 			]
 		],
 		[
-			"Midnight-snack",
+			"Midnight Snack",
 			"chica",
 			[
 				186,
@@ -94,7 +94,7 @@
 			]
 		],
 		[
-			"One-more-bite",
+			"One More Bite",
 			"chica",
 			[
 				186,
@@ -103,7 +103,7 @@
 			]
 		],
 		[
-			"Pirate-adventure",
+			"Pirate Adventure",
 			"foxy",
 			[
 				186,
@@ -112,7 +112,7 @@
 			]
 		],
 		[
-			"Walk-the-plank",
+			"Walk The Plank",
 			"foxy",
 			[
 				186,
@@ -121,7 +121,7 @@
 			]
 		],
 		[
-			"Lost-at-sea",
+			"Lost At Sea",
 			"foxy",
 			[
 				186,
@@ -130,7 +130,7 @@
 			]
 		],
 		[
-			"The-happiest-day",
+			"The Happiest Day",
 			"gfed",
 			[
 				255,
@@ -148,7 +148,7 @@
 			]
 		],
 		[
-			"Join-the-band",
+			"Join The Band",
 			"tfed",
 			[
 				146,
@@ -157,7 +157,7 @@
 			]
 		],
 		[
-			"Hop-to-it",
+			"Hop To It",
 			"tbon",
 			[
 				166,
@@ -166,7 +166,7 @@
 			]
 		],
 		[
-			"Pecking-order",
+			"Pecking Order",
 			"tchic",
 			[
 				246,
@@ -184,7 +184,7 @@
 			]
 		],
 		[
-			"Fallen-star",
+			"Fallen Star",
 			"wfred",
 			[
 				106,
@@ -202,7 +202,7 @@
 			]
 		],
 		[
-			"Broken-jaws",
+			"Broken Jaws",
 			"wchic",
 			[
 				186,
@@ -211,7 +211,7 @@
 			]
 		],
 		[
-			"Pirates-curse",
+			"Pirates Curse",
 			"wfox",
 			[
 				255,
@@ -220,7 +220,7 @@
 			]
 		],
 		[
-			"Eternal-playdate",
+			"Eternal Playdate",
 			"tfed",
 			[
 				6,
@@ -229,7 +229,7 @@
 			]
 		],
 		[
-			"Your-old-friends",
+			"Your Old Friends",
 			"wbon",
 			[
 				255,
@@ -238,7 +238,7 @@
 			]
 		],
 		[
-			"Golden-vengeance",
+			"Golden Vengeance",
 			"golden",
 			[
 				255,
@@ -256,7 +256,7 @@
 			]
 		],
 		[
-			"Taken-apart",
+			"Taken Apart",
 			"purpleguy",
 			[
 				255,
@@ -274,7 +274,7 @@
 			]
 		],
 		[
-			"Fear-forever",
+			"Fear Forever",
 			"all",
 			[
 				0,
@@ -292,7 +292,7 @@
 			]
 		],
 		[
-			"Out-of-bounds",
+			"Out Of Bounds",
 			"shadow",
 			[
 				0,
@@ -301,7 +301,7 @@
 			]
 		],
 		[
-			"Until-next-time",
+			"Until Next Time",
 			"fredbon",
 			[
 				0,
