@@ -1,0 +1,2 @@
+Value 1: Text To Display On Screen
+Value 2: Color In Hex
