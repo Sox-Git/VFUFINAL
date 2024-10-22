@@ -1,3 +1,4 @@
 Value 1: Sound name
+Value 2: Volume
 
 (MUST BE PRELOADED!!!)
