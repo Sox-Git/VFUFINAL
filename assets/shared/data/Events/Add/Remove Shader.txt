@@ -1,2 +1,0 @@
-Value 1: Shader Name, Value
-Value 2: True = Add Shader. False = Remove Shader
