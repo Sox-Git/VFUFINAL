@@ -8,4 +8,18 @@ I will list the things you can and cannot do.
 --------------------
 1. You may use Psych + for mods under given permission from Sox
 2. You may make pull requests to help the mod be optimized better
-(unfin)
+3. You may make Mobile ports, Mac, and Linux ports under given permission
+
+
+##WHAT YOU CAN'T DO##
+---------------------
+1. Make engine "ports"
+2. Make a mods folder "port" on psych. The point of this engine was to be optimized to begin with
+3. Call this engine as your own. Seriously that's just stealing
+4. Use the issues tab as a chat room. It was called issues for a reason
+
+
+##KNOWN BUGS AND SOLUTIONS##
+-----------------------------
+Q: Why does my game crash after beating X song?
+A: This could be caused do to you not having enough RAM. I reccomend at least 4 or 8GB of RAM before playing
