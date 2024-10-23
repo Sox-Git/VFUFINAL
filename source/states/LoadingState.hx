@@ -1,4 +1,4 @@
-package states;
+package states; //TODO Make load state show an actual loading screen where it prechecks all assets being loaded
 
 import lime.app.Promise;
 import lime.app.Future;
