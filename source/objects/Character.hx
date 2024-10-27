@@ -103,7 +103,7 @@ class Character extends FlxSprite
 				if (!Assets.exists(path))
 				#end
 				{
-					path = Paths.getSharedPath('images/Game_Assets/Playstate/FNF/CHAR/BF/Default/data/0.json); //If a character couldn't be found, change him to BF just to prevent a crash
+					path = Paths.getSharedPath('images/Game_Assets/Playstate/FNF/CHAR/BF/Default/data/0.json');
 					color = FlxColor.BLACK;
 					alpha = 0.6;
 				}
