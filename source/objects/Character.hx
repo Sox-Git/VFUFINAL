@@ -94,7 +94,7 @@ class Character extends FlxSprite
 			//case 'your character name in case you want to hardcode them instead':
 
 			default:
-				var characterPath:String = 'images/Game_Assets/Playstate/$key'; //TODO make it grab the corresponding folder from correct fnaf game
+				var characterPath:String = 'images/Game_Assets/Playstate/$key' + '.json'; //TODO make it grab the corresponding folder from correct fnaf game
 
 				var path:String = Paths.getPath(characterPath, TEXT, null, true);
 				#if MODS_ALLOWED

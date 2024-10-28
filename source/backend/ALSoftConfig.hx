@@ -1,4 +1,4 @@
-package source.backend;
+package backend;
 
 import haxe.io.Path;
 
